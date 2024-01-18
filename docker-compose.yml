@@ -15,7 +15,7 @@ services:
   telegraf:
     image: telegraf:latest
     volumes:
-      - telegraf:/etc/telegraf/telegraf.conf:rw
+      - telegraf:/etc/telegraf/:rw
     env_file:
       - .env
     depends_on:
