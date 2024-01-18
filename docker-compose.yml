@@ -33,3 +33,5 @@ services:
 volumes:
   grafana-storage:
   influxdb-storage:
+  telegraf:
+  
